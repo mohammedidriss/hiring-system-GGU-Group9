@@ -22,7 +22,8 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 🏗️ Architecture Design
 -----------------------
 
-> _\[Placeholder: Insert your high-level architecture diagram here. Recommended components to visualize: User Interface (Gradio), Orchestration Layer, ML Engine (XGBoost/SHAP), GenAI Gateway (Gemini API), and Hybrid Infrastructure (OpenShift vs. Cloud Native services).\]_
+<img width="2148" height="1614" alt="Untitled diagram-2025-12-01-075958" src="https://github.com/user-attachments/assets/621fb913-df10-4038-a9f2-1106fdf512d3" />
+
 
 ✨ Key Features
 --------------
@@ -78,11 +79,6 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 *   **Visualization:** Matplotlib, Plotly
     
 *   **Infrastructure Logic:** Custom Python simulation for Cloud vs. On-Prem pricing
-
-🛠️ Architecture
---------------------
-
-<img width="2148" height="1614" alt="Untitled diagram-2025-12-01-075958" src="https://github.com/user-attachments/assets/621fb913-df10-4038-a9f2-1106fdf512d3" />
 
 
 🛠️ Development Cycle
