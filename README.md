@@ -36,7 +36,7 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 *   **Explainable AI (XAI):** Integrated **SHAP (SHapley Additive exPlanations)** values to provide transparent reasons behind every prediction (e.g., "High impact: Years of Experience").
     
 *   **Executive Dashboard:** Real-time visualization of global hiring trends, demographic breakdowns, and success rates.
-    
+
 
 ### 2\. GenAI Career Counselor & Interviewer
 
@@ -78,7 +78,22 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 *   **Visualization:** Matplotlib, Plotly
     
 *   **Infrastructure Logic:** Custom Python simulation for Cloud vs. On-Prem pricing
-    
+
+🛠️ Architecture
+--------------------
+
+<img width="2148" height="1614" alt="Untitled diagram-2025-12-01-075958" src="https://github.com/user-attachments/assets/621fb913-df10-4038-a9f2-1106fdf512d3" />
+
+
+🛠️ Development Cycle
+--------------------
+<img width="1158" height="893" alt="Hiring_System_Development_Cycle" src="https://github.com/user-attachments/assets/3c5566b9-5516-49dd-8649-75b841f5dbbc" />
+
+
+🛠️ System Architecture : Hybrid Architecture
+--------------------
+<img width="1021" height="767" alt="Hiring_System_Architecture_Hybrid" src="https://github.com/user-attachments/assets/675d9d87-1ba2-441a-a340-86df427e4145" />
+
 
 🚀 Installation & Setup
 -----------------------
@@ -111,7 +126,7 @@ Set your Google API key as an environment variable or within the script secrets 
 
 This script launches the main application, including the candidate profile evaluation, dashboard, and mock interviewer.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python course4_hiring_system_v1_4.py   `
+python course4_hiring_system_v1_4.py   `
 
 _Access the UI at http://localhost:7860_
 
@@ -119,7 +134,7 @@ _Access the UI at http://localhost:7860_
 
 This standalone tool allows stakeholders to estimate the financial impact of the system.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python roi_calculator_advanced_py.py   `
+python roi_calculator_advanced_py.py   `
 
 _Access the Calculator at http://localhost:7860_
 
