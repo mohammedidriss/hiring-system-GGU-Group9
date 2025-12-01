@@ -28,7 +28,7 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 ✨ Key Features
 --------------
 
-### 1\. Predictive Hiring Engine (course4\_hiring\_system\_v1\_4.py)
+### 1\. Predictive Hiring Engine  
 
 *   **Automated Resume Parsing:** Extracts key skills, education, and experience from PDF resumes using OCR and LLM extraction.
     
@@ -48,7 +48,7 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 *   **Skill Gap Analysis:** Automatically identifies weaknesses in a profile and suggests specific remediation steps.
     
 
-### 3\. Advanced ROI & TCO Calculator (roi\_calculator\_advanced\_py.py)
+### 3\. Advanced ROI & TCO Calculator  
 
 *   **Hybrid Cloud Comparison:** Simulates costs across **AWS Native, Azure Native, GCP Native**, and **OpenShift (ROSA/ARO/Self-Managed)**.
     
@@ -113,7 +113,8 @@ pip install gradio xgboost shap openpyxl httpx pandas numpy scikit-learn matplot
 
 Set your Google API key as an environment variable or within the script secrets configuration (if using Colab).
 
- # In your local environment  export GOOGLE_API_KEY="your_api_key_here"   `
+### 4\. Setup your GOOGLE_API_KEY
+In your local environment  export GOOGLE_API_KEY="your_api_key_here"   `
 
 💻 Usage
 --------
@@ -146,21 +147,7 @@ The included ROI study (roi\_calculator\_advanced\_py.py) demonstrates the finan
 3.  **Token Economics:** Detailed analysis of RAG (Retrieval-Augmented Generation) costs, factoring in daily query volume and token limits.
     
 
-🤝 Contributing
----------------
-
-Contributions are welcome! Please follow these steps:
-
-1.  Fork the repository.
-    
-2.  Create a new feature branch (git checkout -b feature/AmazingFeature).
-    
-3.  Commit your changes (git commit -m 'Add some AmazingFeature').
-    
-4.  Push to the branch (git push origin feature/AmazingFeature).
-    
-5.  Open a Pull Request.
-    
+   
 
 📄 License
 ----------
