@@ -92,17 +92,17 @@ Built to operate on a **hybrid cloud model**, the solution leverages on-premise 
 
 ### 1\. Clone the Repository
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone [https://github.com/your-username/ai-hiring-system.git](https://github.com/your-username/ai-hiring-system.git)  cd ai-hiring-system   `
+git clone [https://github.com/your-username/ai-hiring-system.git](https://github.com/your-username/ai-hiring-system.git)  cd ai-hiring-system   `
 
 ### 2\. Install Dependencies
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install gradio xgboost shap openpyxl httpx pandas numpy scikit-learn matplotlib plotly pypdf   `
+pip install gradio xgboost shap openpyxl httpx pandas numpy scikit-learn matplotlib plotly pypdf   `
 
 ### 3\. Environment Configuration
 
 Set your Google API key as an environment variable or within the script secrets configuration (if using Colab).
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   # In your local environment  export GOOGLE_API_KEY="your_api_key_here"   `
+ # In your local environment  export GOOGLE_API_KEY="your_api_key_here"   `
 
 💻 Usage
 --------
